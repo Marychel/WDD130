@@ -1,0 +1,101 @@
+#content {
+    background-color: white;
+  }
+  
+  section {
+    overflow: auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    background-color: #331725;
+    color: #ccf5ff;
+    font-family: sans-serif;
+    font-size: 29px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-top: 5px double;
+    border-bottom: 5px double;
+  }
+  
+  .section-column {
+    padding: 0 15px;
+  }
+  
+  .section-title a {
+    color: white;
+  }
+  .section-inner {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background: #d7d9b1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    cursor: pointer;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+  }
+  footer p {
+    margin-left: 10px;
+  }
+  .social {
+    text-align: right;
+  }
+  nav ul li {
+    text-align: left;
+  }
+  
+  .cards {
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    background: #ccf5ff;
+    padding: 10px 5px;
+    text-align: center;
+    border: 2px solid #331725;
+    box-shadow: 2px 10px 5px #7A3700;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    min-height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .cards a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .cards a:hover {
+    color: black;
+  }
+  
+  .cards:hover {
+    background: #fdfdfd;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 560px) {
+    header {
+      grid-template-columns: auto auto;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    .cards {
+      width: 90%;
+    }
+  }
